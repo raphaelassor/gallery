@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.modal{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  position: absolute;
+  margin-left: 50%;
+  display: none;
+  width: 300px;
+  height:300px
+}
+
+.restart-btn{
+  position: absolute;
+  top:80%;
+  left: 50%;
+  width: 100px;
+  height: 40px;
+  border-radius: 10%;
+  background-color:yellow;
+}
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */

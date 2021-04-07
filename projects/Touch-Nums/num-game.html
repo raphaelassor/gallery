@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <title>touch-num game </title>
+</head>
+
+<body onload="init()" >
+    <h1>let's play the Touch-Number game ! </h1>
+    <div class="size-options">
+        <button class="size-btn" onclick="changeSize(16)">16 Numbers</button>
+        <button class="size-btn" onclick="changeSize(25)">25 Numbers</button>
+        <button class="size-btn" onclick="changeSize(36)">36 Numbers</button>
+    </div>
+    
+    <table cellpadding="30">
+    </table>
+    
+    <div class="stopwatch">00:00:00</div>
+    <div class="modal">
+    <h1>  Nice Job! </h1>
+    <button class="size button" onclick="reset()">Start Again! </button>
+  </div>
+
+        
+
+
+
+
+<script src="js/util.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
